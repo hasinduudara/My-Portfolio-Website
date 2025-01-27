@@ -22,6 +22,13 @@
         width: 100%;
         max-width: 800px;
       }
+      .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        width: 100%;
+        max-width: 900px;
+      }
     </style>
   </head>
   <body>
@@ -378,6 +385,37 @@
               style="width: 50px; height: 50px"
             />
             <p>Figma</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="section-title">
+          <h2>Projects</h2>
+        </div>
+        <strong
+          ><mark>Here Are Some of the Projects I Have Developed.</mark></strong
+        >
+        <div class="projects-grid">
+          <div class="project-card">
+            <h2>House Rent System</h2>
+            <img
+              src="/assets/images/project/stay smart.png"
+              alt="House Rent System"
+            />
+            <p>
+              You can manage a rental property located in an apartment building.
+            </p>
+            <button>More....</button>
+          </div>
+          <div class="project-card">
+            <h2>Tic Tac Toe Game</h2>
+            <img
+              src="/assets/images/project/tic tac toe game.png"
+              alt="Tic Tac Toe Game"
+            />
+            <p>This is a simple Tic Tac Toe game.</p>
+            <button>More....</button>
           </div>
         </div>
       </section>
