@@ -48,3 +48,8 @@ nav ul li a {
 nav ul li a:hover {
   color: rgb(255, 0, 68);
 }
+
+.section-title {
+  text-align: center;
+  margin-top: 10vh;
+}
