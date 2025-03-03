@@ -48,8 +48,3 @@ nav ul li a {
 nav ul li a:hover {
   color: rgb(255, 0, 68);
 }
-
-#hero {
-  display: flex;
-  margin-top: 11vh;
-}
