@@ -1,0 +1,54 @@
+/* #about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12vh;
+  text-align: center;
+  flex-direction: row;
+  padding: 30px;
+} */
+
+.about-first-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 10px;
+  /* background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.about-me {
+  max-width: 500px;
+  text-align: left;
+}
+
+.about-me p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #333;
+}
+
+.about-down-cv-btn {
+  margin-top: 20px;
+}
+
+.about-down-cv-btn button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.about-down-cv-btn button:hover {
+  background-color: #0056b3;
+}
+
+.about-down-cv-btn a {
+  color: white;
+  text-decoration: none;
+}
