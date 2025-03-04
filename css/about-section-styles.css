@@ -33,6 +33,17 @@
   color: #333;
 }
 
+.about-text-and-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 20px;
+  /* background-color: #f0f0f0; */
+  /* border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
 .about-down-cv-btn {
   margin-top: -5px;
 }
@@ -56,13 +67,84 @@
   text-decoration: none;
 }
 
-.about-text-and-btn {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;
+.my-informations {
+  margin: 20px;
   padding: 20px;
   /* background-color: #f0f0f0; */
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.my-informations p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #333;
+  margin: 5px 0;
+}
+
+.my-info {
+  font-weight: bold;
+  background-color: white;
+}
+
+.colum-1,
+.colum-2 {
+  flex: 1;
+  margin: 0 10px;
+}
+
+#desc {
+  margin: 20px;
+  padding: 20px;
   /* border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+#desc p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.follow-text {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.youtube-box,
+.tiktok-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px 75px;
+  font-size: 16px;
+}
+
+.social-img {
+  margin-bottom: 10px;
+}
+
+.social-name {
+  text-align: center;
+  font-weight: bold;
+  color: blue;
+  text-decoration: underline blue;
 }
