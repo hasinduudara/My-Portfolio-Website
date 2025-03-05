@@ -37,6 +37,27 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-card {
+  animation: fadeIn 0.5s ease-in-out;
 }
 
 .project-card img {
@@ -60,7 +81,7 @@
   display: block;
   width: 30%;
   padding: 10px;
-  background-color: #007bff;
+  background-color: #db0000;
   color: #fff;
   text-align: center;
   border: none;
@@ -80,7 +101,7 @@
 }
 
 .project-card button:hover {
-  background-color: #0056b3;
+  background-color: #aa0000;
 }
 
 .project-card button a {
