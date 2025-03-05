@@ -60,7 +60,6 @@
 .my-informations {
   margin: 20px;
   padding: 20px;
-  background-color: #f9f9f9;
   border: 1px solid #ddd;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -120,8 +119,7 @@
   margin-top: 20px;
 }
 
-.youtube-box,
-.tiktok-box {
+.youtube-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -132,6 +130,30 @@
   padding: 20px 75px;
   font-size: 16px;
   animation: bounceIn 1s ease-in-out;
+}
+
+.tiktok-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 13px 67px;
+  font-size: 16px;
+  animation: bounceIn 1s ease-in-out;
+}
+
+.yt-box,
+.tt-box {
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.yt-box:hover,
+.tt-box:hover {
+  transform: scale(1.1);
+  background-color: #fffae8;
 }
 
 .social-img {
