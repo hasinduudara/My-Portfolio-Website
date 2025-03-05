@@ -33,7 +33,7 @@
 .service-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  background-color: #fff5d0;
+  background-color: #fffae8;
 }
 
 .service-card h3 {
