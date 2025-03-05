@@ -47,14 +47,15 @@
 
 .contact-form button {
   padding: 10px 20px;
-  background-color: #333;
+  background-color: #555;
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, transform 0.3s ease;
 }
 
 .contact-form button:hover {
-  background-color: #555;
+  background-color: #333;
+  transform: scale(1.1);
 }
