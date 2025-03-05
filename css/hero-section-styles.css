@@ -6,11 +6,13 @@
   text-align: center;
   flex-direction: row;
   padding: 30px;
+  animation: fadeIn 2s ease-in-out;
 }
 
 .hero-content-text {
   margin-right: 20px;
   margin-bottom: 0;
+  animation: slideInLeft 1.5s ease-in-out;
 }
 
 #hero h1 {
@@ -27,7 +29,12 @@
 
 .hero-content-image img {
   border-radius: 50%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding-left: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hero-content-image img:hover {
+  transform: scale(1.1);
 }
 
 .buttons button {
@@ -38,6 +45,7 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .buttons button a {
@@ -47,4 +55,5 @@
 
 .buttons button:hover {
   background-color: #0056b3;
+  transform: scale(1.1);
 }
