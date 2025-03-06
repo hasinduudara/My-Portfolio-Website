@@ -102,3 +102,31 @@
   color: #fff;
   text-decoration: none;
 }
+
+/* responsive - 425px */
+
+@media (max-width: 425px) {
+  .projects-wrapper {
+    flex-direction: column;
+  }
+
+  .project-card {
+    width: 90%;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 425px) {
+  .project-card {
+    width: 100%;
+  }
+
+  .project-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .project-card button {
+    width: 50%;
+  }
+}
