@@ -176,3 +176,30 @@
 .about-section-image img:hover {
   transform: scale(1.1);
 }
+
+/* responsive - 425px */
+@media screen and (max-width: 425px) {
+  .about-first-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about-me {
+    max-width: 100%;
+  }
+
+  .my-informations {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .colum-1,
+  .colum-2 {
+    margin: 0;
+  }
+
+  .youtube-box,
+  .tiktok-box {
+    padding: 10px 40px;
+  }
+}
