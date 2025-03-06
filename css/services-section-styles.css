@@ -3,15 +3,9 @@
   background-color: white;
 }
 
-/* .section-title h2 {
-  text-align: center;
-  font-size: 2.5em;
-  margin-bottom: 20px;
-} */
-
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   padding: 10px 20px 30px 20px;
 }
@@ -22,7 +16,6 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
   text-align: center;
-  /* height: 350px; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
