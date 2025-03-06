@@ -15,24 +15,42 @@ body {
 
 #logo-container {
   display: flex;
+  align-items: center;
 }
 
 header {
   background-color: white;
   width: 100%;
   height: 8vh;
-  /* color: black; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 12px;
   top: 0;
   left: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#burger-button {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 25px;
+  cursor: pointer;
+}
+
+#burger-button span {
+  width: 100%;
+  height: 3px;
+  background-color: black;
 }
 
 nav ul {
   display: flex;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul li {
@@ -43,6 +61,7 @@ nav ul li {
 nav ul li a {
   color: black;
   text-decoration: none;
+  font-weight: 500;
 }
 
 nav ul li a:hover {
@@ -64,4 +83,50 @@ nav ul li a:hover {
   margin: 0;
   color: #333;
   font-size: 16px;
+}
+
+@media (max-width: 425px) {
+  #burger-button {
+    display: flex;
+    margin-left: 10px;
+  }
+
+  /* #burger-button span {
+    transition: opacity 0.3s ease;
+  }
+
+  #burger-button span:nth-child(1) {
+    transition-delay: 0.1s;
+  }
+
+  #burger-button span:nth-child(2) {
+    transition-delay: 0.2s;
+  }
+
+  #burger-button span:nth-child(3) {
+    transition-delay: 0.3s;
+  } */
+
+  nav ul {
+    flex-direction: column;
+    position: absolute;
+    top: 11vh;
+    left: -100%;
+    width: 100%;
+    background-color: white;
+    transition: left 0.3s ease;
+  }
+
+  nav ul.active {
+    left: 0;
+  }
+
+  nav ul li {
+    margin: 15px 0;
+    text-align: center;
+  }
+
+  nav ul li a {
+    font-size: 18px;
+  }
 }
