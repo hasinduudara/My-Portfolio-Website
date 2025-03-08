@@ -91,7 +91,6 @@
   transform: scale(1.1);
 }
 
-/* Responsive mobile device - 425px */
 @media screen and (max-width: 425px) {
   #hero {
     flex-direction: column;
