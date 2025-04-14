@@ -1,6 +1,5 @@
 #skills {
   padding: 35px 0;
-  background-color: white;
 }
 
 .skills-grid {
@@ -47,7 +46,7 @@ p.skills-title-content-creator {
   font-size: 18px;
   font-weight: bold;
   text-align: center;
-  color: #333;
+  color: white;
   margin-top: 40px;
 }
 
@@ -55,6 +54,6 @@ p.skills-title-programming {
   font-size: 18px;
   font-weight: bold;
   text-align: center;
-  color: #333;
+  color: white;
   margin-top: 40px;
 }

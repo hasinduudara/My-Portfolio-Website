@@ -7,6 +7,9 @@
   flex-direction: row;
   padding: 30px;
   animation: fadeIn 2s ease-in-out;
+  /* background-color: rgb(26, 26, 26); */
+  /* background-color: #2e2e2e; */
+  /* background: linear-gradient(135deg, #171717, #4e0000); */
 }
 
 .hero-content-text {
@@ -18,12 +21,12 @@
 #hero h1 {
   font-size: 2.5em;
   margin: 0;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 #hero p {
   font-size: 1.2em;
-  color: black;
+  color: rgb(255, 255, 255);
   margin: 10px 0;
 }
 

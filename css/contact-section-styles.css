@@ -1,6 +1,5 @@
 #contact {
   padding: 50px 0;
-  background-color: white;
 }
 
 .contact-information {
@@ -10,7 +9,7 @@
 
 .contact-desc {
   font-size: 18px;
-  color: #333;
+  color: white;
   margin-bottom: 20px;
 }
 

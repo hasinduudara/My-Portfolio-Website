@@ -1,7 +1,7 @@
 html {
   margin: 0;
   padding: 0;
-  background-color: white;
+  /* background-color: white; */
 }
 
 body {
@@ -9,6 +9,10 @@ body {
   padding: 0;
   width: 100vw;
   overflow-x: hidden;
+}
+
+main {
+  background: linear-gradient(135deg, #171717, #4e0000);
 }
 
 #logo {
@@ -26,7 +30,7 @@ body {
 }
 
 header {
-  background-color: white;
+  background-color: rgb(39, 39, 39);
   width: 100vw;
   height: 8vh;
   display: flex;
@@ -51,7 +55,7 @@ header {
 #burger-button span {
   width: 100%;
   height: 3px;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
 }
 
 nav ul {
@@ -66,7 +70,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: black;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-weight: 500;
 }
@@ -77,18 +81,19 @@ nav ul li a:hover {
 
 .section-title {
   text-align: center;
+  color: white;
   /* margin-top: 10vh; */
 }
 
 #footer {
-  background-color: #f1f1f1;
+  background-color: rgb(39, 39, 39);
   padding: 20px 0;
   text-align: center;
 }
 
 #footer p {
   margin: 0;
-  color: #333;
+  color: #ffffff;
   font-size: 16px;
 }
 
