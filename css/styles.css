@@ -107,9 +107,9 @@ nav ul li a:hover {
     flex-direction: column;
     position: absolute;
     top: 11vh;
-    left: -100%;
-    width: 100%;
-    background-color: white;
+    left: -150%;
+    width: 80%;
+    background-color: rgb(43, 43, 43);
     transition: left 0.3s ease;
   }
 
@@ -120,6 +120,7 @@ nav ul li a:hover {
   nav ul li {
     margin: 15px 0;
     text-align: center;
+    color: white;
   }
 
   nav ul li a {
